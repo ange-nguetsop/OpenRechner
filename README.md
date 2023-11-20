@@ -25,7 +25,9 @@ This C++ console application serves as a versatile calculator capable of handlin
 1. Basic Arithmetic: `5 + 3` results in `8`.
 2. Complex Number: `(1 + 2i) * (3 + 4i)` results in `-5 + 10i`.
 3. Fraction: `Frac(2.5)` results in `5/2`
-![Alt Exemples]()
+   
+![Alt Exemples](https://github.com/ange-nguetsop/OpenRechner/blob/master/OpenRechner/Exemple1.png)
+![Alt Exemples](https://github.com/ange-nguetsop/OpenRechner/blob/master/OpenRechner/Exemple2.png)
 
 ## Dependencies
 - C++ Standard Library
