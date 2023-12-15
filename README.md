@@ -3,10 +3,11 @@
 # C++ Calculator Application
 
 ## Overview
-This C++ console application serves as a versatile calculator capable of handling basic arithmetic operations such as addition, subtraction, multiplication, division, as well as more complex calculations involving complex numbers and fractions.
+This C++ console application serves as a versatile calculator capable of handling basic arithmetic operations such as addition, subtraction, multiplication, division, as well as more complex calculations involving complex numbers,fractions.
 
 ## Features
 - **Basic Arithmetic**: Perform addition, subtraction, multiplication, and division.
+- **Advanced Operations**: Square root power sin cos etc... 
 - **Complex Number Calculations**: Handle arithmetic operations with complex numbers.
 - **Fraction Calculations**: Perform calculations with fractions, simplifying results where applicable.
 
