@@ -1,31 +1,42 @@
-# OpenRechner
-
-# C++ Calculator Application
+# Open Rechner
 
 ## Overview
-This C++ console application serves as a versatile calculator capable of handling basic arithmetic operations such as addition, subtraction, multiplication, division, as well as more complex calculations involving complex numbers,fractions.
+This console line calculator allows users to perform a range of mathematical operations from basic (addition, subtraction, multiplication, division) to complex (utilizing mathematical functions like sin, cos, sqrt, tan, etc.). It can handle complex numbers and convert decimal numbers into fractions. Users can also mix operation types and set priorities using parentheses.
 
-## Features
-- **Basic Arithmetic**: Perform addition, subtraction, multiplication, and division.
-- **Advanced Operations**: Square root power sin cos etc... 
-- **Complex Number Calculations**: Handle arithmetic operations with complex numbers.
-- **Fraction Calculations**: Perform calculations with fractions, simplifying results where applicable.
+## How It Works
 
-## Installation
-1. Clone the repository to your local machine.
-2. Compile the source code using a C++ compiler (e.g., g++, clang).
-3. Run the compiled executable.
+Operating this calculator is straightforward:
+- Enter the desired calculation and press the Enter key to display the result.
 
-## Usage
-- Launch the application from the command line.
-- Select the type of calculation (basic, complex number, fraction).
-- Enter the numbers as prompted.
-- The application will display the result.
+There are two possible scenarios after performing a calculation:
+1. If you declare an operation like `>> a = sqrt(5 * 2) + sin(5)`, the result will be stored in the variable `a`. This variable can be reused at any time for new assignments or to be used in another calculation.
+2. If your operation is like `>> sqrt(14*3) + 1/2`, the result will be stored in an automatic system variable named `ans`. This variable's value is updated every time a calculation is performed without being assigned to a specific variable.
 
-## Examples
-1. Basic Arithmetic: `5 + 3` results in `8`.
-2. Complex Number: `(1 + 2i) * (3 + 4i)` results in `-5 + 10i`.
-3. Fraction: `Frac(2.5)` results in `5/2`
+### Converting to Fractions
+- Use the `frac()` function to convert a decimal number into a rational number (fraction).
+
+### Displaying Variables
+- Enter `dsp` to display all variables stored during the session.
+- Enter the specific variable name to display its name, value, and type (`int`, `double`, `OpenComplex`, `OpenFraction`, `OpenMatrix`).
+
+### Tip
+- During your session, if you prefer not to display the result after each operation, you can add a semicolon at the end of the operation like `>> a = 5 + 2;`. This will store the result directly in the variable `a` without displaying it on the screen. The variable can be displayed by typing its name in the console.
+
+## Upcoming Features
+- **Matrix Calculations**: Work is in progress to enable matrix calculations.
+- **Equation Solving**: Future updates will include solving equations.
+
+## Getting Started
+
+### Prerequisites
+- Ensure you have a C++ compiler installed on your system.
+
+### Installation
+
+1. Clone the repository using the following command:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+
    
 ![Alt Exemples](https://github.com/ange-nguetsop/OpenRechner/blob/master/OpenRechner/Exemple1.png)
 ![Alt Exemples](https://github.com/ange-nguetsop/OpenRechner/blob/master/OpenRechner/Exemple2.png)
