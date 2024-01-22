@@ -37,6 +37,10 @@ There are two possible scenarios after performing a calculation:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
 
+
+### How to use it?
+After cloning the repository, open the Openrechner.cpp file and run it. You'll then be able to take full advantage of the calculator's functionality. 
+
    
 ![Alt Exemples](https://github.com/ange-nguetsop/OpenRechner/blob/master/OpenRechner/Exemple1.png)
 ![Alt Exemples](https://github.com/ange-nguetsop/OpenRechner/blob/master/OpenRechner/Exemple2.png)
